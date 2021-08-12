@@ -1,4 +1,4 @@
 module.exports = function removeSpace(string) {
-    if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
+    if (typeof string !== "string") throw new TypeError("this function wants a string!");
     return string.replace(/\s/g, "");
   };
